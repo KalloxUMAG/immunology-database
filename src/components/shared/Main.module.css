@@ -1,0 +1,12 @@
+.container{
+    height: calc(100vh - theme('height.main'));
+    @apply flex;
+}
+
+.aside{
+    @apply flex flex-col text-gray-700 shadow w-80 h-full pt-4 bg-[#191d52];
+}
+
+.main{
+    @apply w-full h-full overflow-scroll;
+}
